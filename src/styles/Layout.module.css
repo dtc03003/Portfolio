@@ -1,2 +1,9 @@
 .layout {
+    width: 100vw - 5px;
+    height: 100vh - 5px;
+}
+
+/* 레이아웃 밑 모든 항목 */
+.layout * {
+    border: 1px solid black;
 }
