@@ -1,0 +1,42 @@
+.Main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../public/img/Main.jpg);
+}
+
+.inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    font-size: 4vw;
+    border-right: 0.15em solid white;
+    white-space: nowrap; /*스크롤바 제거*/
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 0.15em;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .typewriter h1 {
+        font-size: 2rem;
+    }
+} */

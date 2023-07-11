@@ -7,11 +7,11 @@
 .btn_items {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn_item {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 0.5rem;
     border: none;
+    cursor: pointer;
 }

@@ -2,8 +2,15 @@
 import style from "./../styles/Main.module.css";
 
 const Main = () => {
-    return;
-    <div className={style.Main}>김동현의 포트폴리오입니다.</div>;
+    return (
+        <div className={style.Main}>
+            <div className={style.inner}>
+                <div className={style.typewriter}>
+                    <h1>김동현의 포트폴리오입니다.</h1>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default Main;
