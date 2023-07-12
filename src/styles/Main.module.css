@@ -1,5 +1,5 @@
 .Main {
-    height: calc(100vh - 5px);
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
