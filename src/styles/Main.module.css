@@ -1,10 +1,12 @@
 .Main {
-    height: 100%;
+    height: calc(100vh - 5px);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../../public/img/Main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /* 배경 반복 금지 */
 }
 
 .inner {
@@ -22,7 +24,16 @@
     margin: 0 auto;
     color: white;
     letter-spacing: 0.15em;
-    animation: blink-caret 0.75s step-end infinite;
+    animation: typing 1.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes blink-caret {
