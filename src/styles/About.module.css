@@ -1,6 +1,5 @@
 .About {
-    height: 70%;
-    background-color: rgb(211, 237, 229);
+    height: 60%;
 }
 
 .inner {
@@ -10,11 +9,12 @@
 }
 
 .about_me {
-    width: 35vh;
+    width: 35vw;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 3vw;
 }
 
 .title h1 {
@@ -25,10 +25,11 @@
 
 .photo {
     width: 13em;
-    height: 240px;
-    margin-top: 50px;
+    height: 30vh;
+    margin-top: 1vh;
     background-image: url(../../public/img/img.jpg);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -36,4 +37,10 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.char h1 {
+    margin: 0;
+    margin-top: 1vh;
+    font-size: 2vw;
 }
