@@ -11,13 +11,20 @@ const Project = () => {
             <div className={style.inner}>
                 <h1>My Project</h1>
                 <div className={style.projects}>
-                    <div className={style.project}>
-                        <button onClick={() => setModalIsOpen(true)}>Modal Open</button>
+                    <div
+                        className={style.project}
+                        onClick={() => {
+                            setModalIsOpen(true);
+                        }}
+                    >
                         포트폴리오
                         <Modal
                             isOpen={modalIsOpen}
                             ariaHideApp={false}
-                            onRequestClose={() => setModalIsOpen(false)}
+                            onRequestClose={(event) => {
+                                setModalIsOpen(false);
+                                event.stopPropagation(); // 이벤트 버블링 방지
+                            }}
                             style={{
                                 overlay: {
                                     position: "fixed",
@@ -43,7 +50,7 @@ const Project = () => {
                                 },
                             }}
                         >
-                            This is Modal content
+                            포트폴리오 더 보기 모달창입니다.
                         </Modal>
                     </div>
                     <div className={style.project}>게시판</div>
