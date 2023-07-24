@@ -4,7 +4,15 @@ import style from "./../styles/Contact.module.css";
 const Contact = () => {
     return (
         <div className={style.Contact}>
-            <h1>연결 주소</h1>
+            <div className={style.inner}>
+                <h1>Contact Me</h1>
+                <div className={style.Icons}>
+                    <div className={style.email}></div>
+                    <div className={style.kakao}></div>
+                    <div className={style.github}></div>
+                    <div className={style.blog}></div>
+                </div>
+            </div>
         </div>
     );
 };
