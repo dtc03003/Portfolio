@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.aac777d8.css",
-    "main.js": "/Portfolio/static/js/main.f214c1bb.js",
+    "main.css": "/Portfolio/static/css/main.f907b32f.css",
+    "main.js": "/Portfolio/static/js/main.ebe053cf.js",
     "static/media/img.jpg": "/Portfolio/static/media/img.0fd464bda549ed67a602.jpg",
     "static/media/Main.jpg": "/Portfolio/static/media/Main.1412286e76ea875e15d7.jpg",
+    "static/media/kakaotalk.svg": "/Portfolio/static/media/kakaotalk.ba0b78fa92b0ab277fc4.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.3b21c250a99986431958.svg",
+    "static/media/velog.svg": "/Portfolio/static/media/velog.734340c4f4ac254ca87d.svg",
+    "static/media/gmail.svg": "/Portfolio/static/media/gmail.f12319849e28413aaa94.svg",
     "index.html": "/Portfolio/index.html",
-    "main.aac777d8.css.map": "/Portfolio/static/css/main.aac777d8.css.map",
-    "main.f214c1bb.js.map": "/Portfolio/static/js/main.f214c1bb.js.map"
+    "main.f907b32f.css.map": "/Portfolio/static/css/main.f907b32f.css.map",
+    "main.ebe053cf.js.map": "/Portfolio/static/js/main.ebe053cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.aac777d8.css",
-    "static/js/main.f214c1bb.js"
+    "static/css/main.f907b32f.css",
+    "static/js/main.ebe053cf.js"
   ]
 }
