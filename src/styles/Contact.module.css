@@ -34,38 +34,27 @@
     justify-content: space-around;
 }
 
-.email {
+.Icons > * {
     width: 50px;
     height: 50px;
-    background-image: url(./../../public/img/gmail.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.email {
+    background-image: url(./../../public/img/gmail.svg);
 }
 
 .kakao {
-    width: 50px;
-    height: 50px;
     background-image: url(./../../public/img/kakaotalk.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .github {
-    width: 50px;
-    height: 50px;
     background-image: url(./../../public/img/github.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .blog {
-    width: 50px;
-    height: 50px;
     background-image: url(./../../public/img/velog.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
