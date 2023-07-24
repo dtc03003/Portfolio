@@ -14,9 +14,24 @@ const Contact = () => {
                             alert("이메일 복사가 완료되었습니다.");
                         }}
                     ></div>
-                    <div className={style.kakao}></div>
-                    <div className={style.github}></div>
-                    <div className={style.blog}></div>
+                    <div
+                        className={style.kakao}
+                        onClick={() => {
+                            openkakao();
+                        }}
+                    ></div>
+                    <div
+                        className={style.github}
+                        onClick={() => {
+                            opengithub();
+                        }}
+                    ></div>
+                    <div
+                        className={style.blog}
+                        onClick={() => {
+                            openblog();
+                        }}
+                    ></div>
                 </div>
             </div>
         </div>
@@ -38,6 +53,18 @@ const copy = (text) => {
     // 복사 후 textarea 지우기
     document.execCommand("copy");
     document.body.removeChild($textarea);
+};
+
+const openkakao = () => {
+    window.open("https://open.kakao.com/o/sDHPncxf");
+};
+
+const opengithub = () => {
+    window.open("https://github.com/dtc03003");
+};
+
+const openblog = () => {
+    window.open("https://velog.io/@dtc03003");
 };
 
 export default Contact;
