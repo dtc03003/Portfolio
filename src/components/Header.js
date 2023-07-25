@@ -9,24 +9,71 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").scrollTop(0);
+                        $("#Contents").animate(
+                            {
+                                scrollTop: 0,
+                            },
+                            1000
+                        );
                     }}
                 >
                     Home
                 </p>
-                <p className={style.btn_item}>About</p>
-                <p className={style.btn_item}>Skill</p>
-                <p className={style.btn_item}>Project</p>
-                <p className={style.btn_item}>Contact</p>
+                <p
+                    className={style.btn_item}
+                    onClick={() => {
+                        $("#Contents").animate(
+                            {
+                                scrollTop: 900,
+                            },
+                            1000
+                        );
+                    }}
+                >
+                    About
+                </p>
+                <p
+                    className={style.btn_item}
+                    onClick={() => {
+                        $("#Contents").animate(
+                            {
+                                scrollTop: 1400,
+                            },
+                            1000
+                        );
+                    }}
+                >
+                    Skill
+                </p>
+                <p
+                    className={style.btn_item}
+                    onClick={() => {
+                        $("#Contents").animate(
+                            {
+                                scrollTop: 2300,
+                            },
+                            1000
+                        );
+                    }}
+                >
+                    Project
+                </p>
+                <p
+                    className={style.btn_item}
+                    onClick={() => {
+                        $("#Contents").animate(
+                            {
+                                scrollTop: 3200,
+                            },
+                            1000
+                        );
+                    }}
+                >
+                    Contact
+                </p>
             </div>
         </div>
     );
 };
-
-// const scroll = (name) => {
-//     var location = document.querySelector("." + name).offsetTop;
-//     window.scrollTo({ top: location, behavior: "smooth" });
-//     console.log("작동");
-// };
 
 export default Header;
