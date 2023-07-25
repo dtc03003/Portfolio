@@ -10,10 +10,8 @@ const Layout = () => {
     return (
         <div className={style.layout}>
             <Header />
-            <div>
-                <Contents />
-                <Footer />
-            </div>
+            <Contents />
+            <Footer />
         </div>
     );
 };
