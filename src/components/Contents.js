@@ -9,7 +9,7 @@ import Contact from "./Contact";
 
 const Contents = () => {
     return (
-        <div className={style.Contents}>
+        <div className={style.Contents} id="Contents">
             <Main />
             <About />
             <Skills />
