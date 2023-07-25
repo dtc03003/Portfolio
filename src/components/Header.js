@@ -9,12 +9,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").animate(
-                            {
-                                scrollTop: 0,
-                            },
-                            1000
-                        );
+                        scroll(0);
                     }}
                 >
                     Home
@@ -22,12 +17,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").animate(
-                            {
-                                scrollTop: 900,
-                            },
-                            1000
-                        );
+                        scroll(900);
                     }}
                 >
                     About
@@ -35,12 +25,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").animate(
-                            {
-                                scrollTop: 1400,
-                            },
-                            1000
-                        );
+                        scroll(1400);
                     }}
                 >
                     Skill
@@ -48,12 +33,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").animate(
-                            {
-                                scrollTop: 2300,
-                            },
-                            1000
-                        );
+                        scroll(2300);
                     }}
                 >
                     Project
@@ -61,18 +41,22 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        $("#Contents").animate(
-                            {
-                                scrollTop: 3200,
-                            },
-                            1000
-                        );
+                        scroll(3200);
                     }}
                 >
                     Contact
                 </p>
             </div>
         </div>
+    );
+};
+
+const scroll = (val) => {
+    $("#Contents").animate(
+        {
+            scrollTop: val,
+        },
+        1000
     );
 };
 
