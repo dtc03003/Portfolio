@@ -3,7 +3,7 @@ import style from "./../styles/Contact.module.css";
 
 const Contact = () => {
     return (
-        <div className={style.Contact}>
+        <div className={style.Contact} id="Contact">
             <div className={style.inner}>
                 <h1>Contact Me</h1>
                 <div className={style.Icons}>

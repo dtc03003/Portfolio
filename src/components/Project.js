@@ -9,7 +9,7 @@ import Modal6 from "./Modal/Modal6";
 
 const Project = () => {
     return (
-        <div className={style.Project}>
+        <div className={style.Project} id="Project">
             <div className={style.inner}>
                 <h1>My Project</h1>
                 <div className={style.projects}>

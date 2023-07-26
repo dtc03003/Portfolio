@@ -1,6 +1,5 @@
 /* css import */
 import style from "./../styles/Header.module.css";
-import $ from "jquery";
 
 const Header = () => {
     return (
@@ -9,7 +8,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        scroll(0);
+                        scroll("Main");
                     }}
                 >
                     Home
@@ -17,7 +16,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        scroll(900);
+                        scroll("About");
                     }}
                 >
                     About
@@ -25,7 +24,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        scroll(1400);
+                        scroll("Skills");
                     }}
                 >
                     Skill
@@ -33,7 +32,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        scroll(2300);
+                        scroll("Project");
                     }}
                 >
                     Project
@@ -41,7 +40,7 @@ const Header = () => {
                 <p
                     className={style.btn_item}
                     onClick={() => {
-                        scroll(3200);
+                        scroll("Contact");
                     }}
                 >
                     Contact
@@ -52,12 +51,7 @@ const Header = () => {
 };
 
 const scroll = (val) => {
-    $("#Contents").animate(
-        {
-            scrollTop: val,
-        },
-        1000
-    );
+    document.getElementById(val).scrollIntoView({ behavior: "smooth" });
 };
 
 export default Header;
