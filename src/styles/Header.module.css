@@ -1,7 +1,19 @@
 .Header {
     display: flex;
     height: 6vh;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.inner {
+    display: flex;
+    width: 60%;
     align-items: center;
+}
+
+.title {
+    width: 70%;
 }
 
 .btn_items {
