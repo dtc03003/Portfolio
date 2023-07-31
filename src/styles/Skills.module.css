@@ -1,14 +1,9 @@
 .Skills {
-    height: 120vh;
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    /* height: 100%; */
     background-color: rgb(195, 193, 193);
 
     display: flex;
     justify-content: center;
-    /* align-content: center; */
 }
 
 .inner {
@@ -24,17 +19,18 @@
 
 .inner > h1 {
     margin: 0;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 6%;
+    margin-bottom: 2vh;
     text-align: center;
 }
 
 .Main {
-    height: 40vh;
-    width: 100%;
     display: flex;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .Main h1 {
@@ -53,18 +49,18 @@
 }
 
 .skill {
-    width: 7vw;
-    height: 7vw;
+    width: 100px;
+    height: 100px;
     background-color: rgb(255, 255, 255);
-    margin: 1vw;
+    margin: 10px;
 }
 
 .Sub {
     display: flex;
-    height: 60vh;
-    display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .Sub h1 {
