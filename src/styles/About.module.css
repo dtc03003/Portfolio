@@ -1,6 +1,6 @@
 .About {
     display: flex;
-    height: 70%;
+    height: 30rem;
     width: 100%;
     justify-content: center;
 }
@@ -29,7 +29,7 @@
 
 .photo {
     width: 13em;
-    height: 30vh;
+    height: 40%;
     margin-top: 1vh;
     background-image: url(../../public/img/img.jpg);
     background-size: contain;
@@ -39,12 +39,12 @@
 
 .intro {
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .char h1 {
     margin: 0;
     margin-top: 1vh;
-    font-size: 2vw;
+    font-size: 2.5rem;
 }
