@@ -23,7 +23,7 @@ const Header = () => {
                             scroll("About");
                         }}
                     >
-                        About
+                        About me
                     </p>
                     <p
                         className={style.btn_item}
@@ -31,7 +31,7 @@ const Header = () => {
                             scroll("Skills");
                         }}
                     >
-                        Skill
+                        Skills
                     </p>
                     <p
                         className={style.btn_item}
@@ -39,7 +39,7 @@ const Header = () => {
                             scroll("Project");
                         }}
                     >
-                        Project
+                        Projects
                     </p>
                     <p
                         className={style.btn_item}
