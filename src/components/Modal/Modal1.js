@@ -23,7 +23,12 @@ const Modal1 = () => {
                 }}
                 style={ModalStyle}
             >
-                포트폴리오 더 보기 모달창입니다.
+                <div className={style.modal}>
+                    <div className={style.modal_inner}>
+                        <div className={style.photo}></div>
+                        <div className={style.intro}></div>
+                    </div>
+                </div>
             </Modal>
         </div>
     );

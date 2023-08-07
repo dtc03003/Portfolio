@@ -41,3 +41,28 @@
     text-align: center;
     cursor: pointer;
 }
+
+.modal {
+    width: 100%;
+    height: 100%;
+}
+
+.modal_inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.photo {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.intro {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
