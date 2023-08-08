@@ -25,8 +25,53 @@ const Modal1 = () => {
             >
                 <div className={style.modal}>
                     <div className={style.modal_inner}>
-                        <div className={style.photo}></div>
-                        <div className={style.intro}></div>
+                        <div className={style.img}>
+                            <div className={style.inner_img}></div>
+                        </div>
+                        <div className={style.intro}>
+                            <div className={style.title}>
+                                <h1>포트폴리오</h1>
+                            </div>
+                            <div className={style.inner_intro}>
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                                대충 작품설명
+                                <br />
+                            </div>
+                            <div className={style.link}>깃허브 주소</div>
+                        </div>
                     </div>
                 </div>
             </Modal>

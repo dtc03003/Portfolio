@@ -54,15 +54,47 @@
     /* flex-direction: column; */
 }
 
-.photo {
+.img {
     width: 50%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    border-right: 1px solid black;
+}
+
+.inner_img {
+    width: 70%;
+    height: 50%;
+    margin-top: 4rem;
     background-color: black;
-    border: 1px solid black;
 }
 
 .intro {
     width: 50%;
     height: 100%;
+
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    text-align: center;
+
+    flex-direction: column;
+
+    border: 1px solid black;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+.inner_intro {
+    height: 100%;
+    margin-top: 4rem;
+}
+
+.link {
+    height: 4rem;
     border: 1px solid black;
 }
