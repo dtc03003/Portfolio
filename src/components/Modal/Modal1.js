@@ -33,42 +33,36 @@ const Modal1 = () => {
                                 <h1>포트폴리오</h1>
                             </div>
                             <div className={style.inner_intro}>
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
-                                대충 작품설명
-                                <br />
+                                <div className={style.main_description}>프로젝트 설명</div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>주요 기능</div>
+                                    <div className={style.projects_value}>
+                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
+                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
+                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
+                                        주요 기능 설명
+                                    </div>
+                                </div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>FrontEnd</div>
+                                    <div className={style.projects_value}>기능 설명</div>
+                                </div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>BackEnd</div>
+                                    <div className={style.projects_value}>기능 설명</div>
+                                </div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>DataBase</div>
+                                    <div className={style.projects_value}>기능 설명</div>
+                                </div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>Deployment</div>
+                                    <div className={style.projects_value}>기능 설명</div>
+                                </div>
+                                <div className={style.description}>
+                                    <div className={style.projects_label}>URL</div>
+                                    <div className={style.projects_value}>기능 설명</div>
+                                </div>
                             </div>
                             <div className={style.link}>깃허브 주소</div>
                         </div>

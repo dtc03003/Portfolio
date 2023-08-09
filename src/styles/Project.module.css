@@ -91,7 +91,28 @@
 
 .inner_intro {
     height: 100%;
-    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.main_description {
+    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects_label {
+    width: 10rem;
+}
+
+.projects_value {
+    width: 100%;
 }
 
 .link {
