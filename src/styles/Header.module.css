@@ -8,12 +8,12 @@
 
 .inner {
     display: flex;
-    width: 60%;
+    width: 70%;
     align-items: center;
 }
 
 .title {
-    width: 70%;
+    width: 80%;
 }
 
 .btn_items {

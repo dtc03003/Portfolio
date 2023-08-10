@@ -6,17 +6,16 @@ const Header = () => {
         <div className={style.Header}>
             <div className={style.inner}>
                 <div className={style.title}>
-                    <p>DH's Portfolio</p>
-                </div>
-                <div className={style.btn_items}>
                     <p
                         className={style.btn_item}
                         onClick={() => {
                             scroll("Main");
                         }}
                     >
-                        Home
+                        DH's Portfolio
                     </p>
+                </div>
+                <div className={style.btn_items}>
                     <p
                         className={style.btn_item}
                         onClick={() => {
