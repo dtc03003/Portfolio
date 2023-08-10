@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../public/img/Main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url(../../public/img/Main.jpg);
     background-size: cover;
     background-repeat: no-repeat; /* 배경 반복 금지 */
 }
