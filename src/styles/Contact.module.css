@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(172, 225, 179);
+    background-color: rgb(0, 0, 0);
 }
 
 .inner {
@@ -17,6 +17,7 @@
 }
 
 .inner > h1 {
+    color: white;
     margin: 0;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -45,16 +46,20 @@
 
 .email {
     background-image: url(./../../public/img/gmail.svg);
+    filter: invert(100%);
 }
 
 .kakao {
     background-image: url(./../../public/img/kakaotalk.svg);
+    filter: invert(100%);
 }
 
 .github {
     background-image: url(./../../public/img/github.svg);
+    filter: invert(100%);
 }
 
 .blog {
     background-image: url(./../../public/img/velog.svg);
+    filter: invert(100%);
 }
