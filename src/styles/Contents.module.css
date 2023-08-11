@@ -13,3 +13,38 @@
 .Contents::-webkit-scrollbar {
     display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
+
+.ubutton {
+    height: 3rem;
+    width: 3rem;
+
+    position: fixed;
+    bottom: 8rem;
+    right: 3rem;
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.dbutton {
+    height: 3rem;
+    width: 3rem;
+
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    cursor: pointer;
+}

@@ -15,8 +15,28 @@ const Contents = () => {
             <Skills />
             <Project />
             <Contact />
+            <div
+                className={style.ubutton}
+                onClick={() => {
+                    scroll("Main");
+                }}
+            >
+                ^
+            </div>
+            <div
+                className={style.dbutton}
+                onClick={() => {
+                    scroll("Contact");
+                }}
+            >
+                v
+            </div>
         </div>
     );
 };
 
 export default Contents;
+
+const scroll = (val) => {
+    document.getElementById(val).scrollIntoView({ behavior: "smooth" });
+};
