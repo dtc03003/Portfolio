@@ -13,7 +13,19 @@ const Modal1 = () => {
                 setModalIsOpen(true);
             }}
         >
-            포트폴리오
+            <div className={style.out_img}></div>
+            <div className={style.out_intro}>
+                <div className={style.out_title}>
+                    <h1>포트폴리오</h1>
+                </div>
+                <div className={style.simple_intro}>
+                    <p>간단 소개</p>
+                    <p>개발기간</p>
+                    <p>기술</p>
+                    <p>더보기</p>
+                </div>
+            </div>
+
             <Modal
                 isOpen={modalIsOpen}
                 ariaHideApp={false}
