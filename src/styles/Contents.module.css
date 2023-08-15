@@ -21,14 +21,15 @@
     position: fixed;
     bottom: 8rem;
     right: 3rem;
-    color: red;
-    font-size: 3rem;
-    text-align: center;
 
-    border: 1px solid black;
     border-radius: 50%;
 
     cursor: pointer;
+    background-color: white;
+    background-image: url("./../logo/ubutton.png");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .dbutton {
@@ -39,12 +40,13 @@
     bottom: 3rem;
     right: 3rem;
 
-    color: red;
-    font-size: 3rem;
-    text-align: center;
-
-    border: 1px solid black;
     border-radius: 50%;
 
     cursor: pointer;
+    transform: scaleY(-1);
+    background-color: white;
+    background-image: url("./../logo/ubutton.png");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
 }

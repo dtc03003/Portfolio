@@ -20,17 +20,13 @@ const Contents = () => {
                 onClick={() => {
                     scroll("Main");
                 }}
-            >
-                ^
-            </div>
+            ></div>
             <div
                 className={style.dbutton}
                 onClick={() => {
                     scroll("Contact");
                 }}
-            >
-                v
-            </div>
+            ></div>
         </div>
     );
 };
