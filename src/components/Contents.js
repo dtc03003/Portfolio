@@ -16,13 +16,14 @@ const Contents = () => {
             <Project />
             <Contact />
             <div
-                className={style.ubutton}
+                className={style.button}
                 onClick={() => {
                     scroll("Main");
                 }}
             ></div>
             <div
-                className={style.dbutton}
+                className={style.button}
+                style={{ bottom: "3rem", transform: "scaleY(-1)" }}
                 onClick={() => {
                     scroll("Contact");
                 }}
