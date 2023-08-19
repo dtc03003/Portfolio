@@ -19,11 +19,18 @@ const Modal1 = () => {
                     <h1>SBANK</h1>
                 </div>
                 <div className={style.simple_intro}>
-                    <p>간단 소개</p>
-                    <p>개발기간</p>
-                    <p>개발인원</p>
-                    <p>기술</p>
-                    <p>더보기</p>
+                    <div className={style.simple_label}>
+                        <p>간단 소개</p>
+                        <p>개발기간</p>
+                        <p>개발인원</p>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
+                        <p>음성인식 인터넷 뱅킹</p>
+                        <p>22.03 ~ 22.04</p>
+                        <p>6명</p>
+                        <p>#React #Bootstrap </p>
+                    </div>
                 </div>
             </div>
             <Modal

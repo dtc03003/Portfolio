@@ -19,11 +19,18 @@ const Modal1 = () => {
                     <h1>핏메이트</h1>
                 </div>
                 <div className={style.simple_intro}>
-                    <p>간단 소개</p>
-                    <p>개발기간</p>
-                    <p>개발인원</p>
-                    <p>기술</p>
-                    <p>더보기</p>
+                    <div className={style.simple_label}>
+                        <p>간단 소개</p>
+                        <p>개발기간</p>
+                        <p>개발인원</p>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
+                        <p>스타일리스트 고객 매칭 서비스</p>
+                        <p>22.02 ~ 22.03</p>
+                        <p>6명</p>
+                        <p>#Vue #Bootstrap </p>
+                    </div>
                 </div>
             </div>
             <Modal

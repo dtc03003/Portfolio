@@ -19,10 +19,16 @@ const Modal1 = () => {
                     <h1>포트폴리오</h1>
                 </div>
                 <div className={style.simple_intro}>
-                    <p>간단 소개</p>
-                    <p>개발기간</p>
-                    <p>기술</p>
-                    <p>더보기</p>
+                    <div className={style.simple_label}>
+                        <p>간단소개</p>
+                        <p>개발기간</p>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
+                        <p>포트폴리오</p>
+                        <p>23.07 ~ 23.08</p>
+                        <p>#react</p>
+                    </div>
                 </div>
             </div>
 
