@@ -21,12 +21,24 @@ const Modal1 = () => {
                 <div className={style.simple_intro}>
                     <div className={style.simple_label}>
                         <p>간단소개</p>
-                        <p>개발기간</p>
-                        <p>기술</p>
                     </div>
                     <div className={style.simple_contents}>
                         <p>Todo List</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>개발기간</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>23.06</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>#Node.js </p>
                     </div>
                 </div>

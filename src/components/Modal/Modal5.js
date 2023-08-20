@@ -21,14 +21,32 @@ const Modal1 = () => {
                 <div className={style.simple_intro}>
                     <div className={style.simple_label}>
                         <p>간단 소개</p>
-                        <p>개발기간</p>
-                        <p>개발인원</p>
-                        <p>기술</p>
                     </div>
                     <div className={style.simple_contents}>
                         <p>스타일리스트 고객 매칭 서비스</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>개발기간</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>22.02 ~ 22.03</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>개발인원</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>6명</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>#Vue #Bootstrap </p>
                     </div>
                 </div>

@@ -21,14 +21,32 @@ const Modal1 = () => {
                 <div className={style.simple_intro}>
                     <div className={style.simple_label}>
                         <p>간단 소개</p>
-                        <p>개발기간</p>
-                        <p>개발인원</p>
-                        <p>기술</p>
                     </div>
                     <div className={style.simple_contents}>
                         <p>음성인식 인터넷 뱅킹</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>개발기간</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>22.03 ~ 22.04</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>개발인원</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>6명</p>
+                    </div>
+                </div>
+                <div className={style.simple_intro}>
+                    <div className={style.simple_label}>
+                        <p>기술</p>
+                    </div>
+                    <div className={style.simple_contents}>
                         <p>#React #Bootstrap </p>
                     </div>
                 </div>
