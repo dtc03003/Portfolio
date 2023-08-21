@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import ModalStyle from "../../styles/ModalStyle";
 
+import img from "../../img/포토폴리오.png";
+
 const Modal1 = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -13,7 +15,7 @@ const Modal1 = () => {
                 setModalIsOpen(true);
             }}
         >
-            <div className={style.out_img}></div>
+            <div className={style.out_img} style={{ backgroundImage: `url(${img})` }}></div>
             <div className={style.out_intro}>
                 <div className={style.out_title}>
                     <h1>포트폴리오</h1>

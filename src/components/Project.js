@@ -15,8 +15,8 @@ const Project = () => {
                 <div className={style.projects}>
                     <Modal1></Modal1>
                     <Modal2></Modal2>
-                    <Modal3></Modal3>
-                    <Modal4></Modal4>
+                    {/* <Modal3></Modal3> */}
+                    {/* <Modal4></Modal4> */}
                     <Modal5></Modal5>
                     <Modal6></Modal6>
                 </div>
