@@ -65,38 +65,41 @@ const Modal1 = () => {
                                 <h1>포트폴리오</h1>
                             </div>
                             <div className={style.inner_intro}>
-                                <div className={style.main_description}>프로젝트 설명</div>
+                                <div className={style.main_description}>
+                                    포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 이
+                                    웹사이트에 해당합니다. <br />
+                                    <br /> 이론으로만 알았던 HTML, CSS, JavaScript, React 등을
+                                    실제로 웹사이트를 제작하면서 심도있게 다뤘습니다. 특히 CSS
+                                    실력이 많이 늘었다고 생각하는 프로젝트 입니다.
+                                </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>주요 기능</div>
                                     <div className={style.projects_value}>
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명
+                                        자기소개, 인적 사항, 기술 스택, 프로젝트 경험, GitHub &
+                                        블로그 & 이메일 &카카오톡 주소 링크
                                     </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>React, jQuery</div>
                                 </div>
                                 <div className={style.description}>
-                                    <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>DataBase</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_label}>GitHub</div>
+                                    <div className={style.projects_value}>
+                                        <a href="https://github.com/dtc03003/Portfolio">
+                                            https://github.com/dtc03003/Portfolio
+                                        </a>
+                                    </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>
+                                        <a href="https://dtc03003.github.io/Portfolio/">
+                                            https://dtc03003.github.io/Portfolio/
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className={style.link}>깃허브 주소</div>
                         </div>
                     </div>
                 </div>

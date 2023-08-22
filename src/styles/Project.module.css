@@ -158,9 +158,11 @@
 }
 
 .main_description {
-    height: 100%;
+    height: 50%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .projects_label {
