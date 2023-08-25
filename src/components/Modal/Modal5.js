@@ -72,38 +72,48 @@ const Modal1 = () => {
                                 <h1>핏메이트</h1>
                             </div>
                             <div className={style.inner_intro}>
-                                <div className={style.main_description}>핏메이트 설명</div>
+                                <div className={style.main_description}>
+                                    {" "}
+                                    그런 생각해 본 적 없나요? ‘내일 출근할 때 뭐 입고 가지?’,
+                                    ‘여행갈 때 뭐 입지?’ 등등... 패알못이지만 가끔 차려입고 가고
+                                    싶은 날이 있잖아요. 그렇지만 어떻게 입어야 할 지 도무지
+                                    모르겠고... 그럴 때면 ‘나를 위한 스타일리스트가 있었으면...’
+                                    하고 생각하게 되죠. 그래서 준비해봤어요. <br /> “스타일리스트
+                                    매칭 서비스!”
+                                </div>
                                 <div className={style.description}>
-                                    <div className={style.projects_label}>주요 기능</div>
+                                    <div className={style.projects_label}>주요기능</div>
                                     <div className={style.projects_value}>
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명
+                                        이미지 업로드 및 글 작성, 팔로우 기능,
                                     </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>Vue, Vuex</div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>Spring Boot, Swagger</div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>DataBase</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>MySQL</div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>
+                                        AWS(EC2, NGINX, Docker, Jenkins)
+                                    </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>
+                                        <a href="https://github.com/dtc03003/project1">
+                                            https://github.com/dtc03003/project1
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className={style.link}>깃허브 주소</div>
                         </div>
                     </div>
                 </div>
