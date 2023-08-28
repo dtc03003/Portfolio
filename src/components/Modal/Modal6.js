@@ -72,23 +72,28 @@ const Modal1 = () => {
                                 <h1>SBANK</h1>
                             </div>
                             <div className={style.inner_intro}>
-                                <div className={style.main_description}>SBANK 설명</div>
+                                <div className={style.main_description}>
+                                    SBank 프로젝트는 디지털 트렌스포메이션의 소외계층(노령층)을 위한
+                                    AI 음성 도우미 서비스를 적용한 사이트로 복잡한 은행 사이트를
+                                    음성 명령을 통해 쉽게 이용할 수 있도록 제작되었습니다.
+                                </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>주요 기능</div>
                                     <div className={style.projects_value}>
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명
+                                        로그인 회원가입 관리 음성 인식을 통한 페이지 이동 얼굴
+                                        인식을 통한 연령별 맞춤 금융 상품 추천 입금, 송금 기능
+                                        자신의 소비내역 그래프 확인
                                     </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>React, axios</div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>
+                                        Spring Boot, Lombok, fastAPI, pytorch, torchaudio, cuda
+                                    </div>
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>DataBase</div>
@@ -96,14 +101,19 @@ const Modal1 = () => {
                                 </div>
                                 <div className={style.description}>
                                     <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_value}>
+                                        AWS(EC2), Docker, Jenkins
+                                    </div>
                                 </div>
                                 <div className={style.description}>
-                                    <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.projects_label}>GIT</div>
+                                    <div className={style.projects_value}>
+                                        <a href="https://github.com/dtc03003/project2">
+                                            https://github.com/dtc03003/project2
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className={style.link}>깃허브 주소</div>
                         </div>
                     </div>
                 </div>
