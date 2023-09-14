@@ -5,8 +5,24 @@ import ModalStyle from "../../styles/ModalStyle";
 
 import img from "../../img/포토폴리오.png";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
+import imageData from "./data";
+
+const renderSlides = imageData.map((image) => (
+    <div key={image.alt}>
+        <img src={image.url} alt={image.alt} />
+    </div>
+));
+
 const Modal1 = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const [currentIndex, setCurrentIndex] = useState();
+    function handleChange(index) {
+        setCurrentIndex(index);
+    }
 
     return (
         <div
@@ -16,6 +32,7 @@ const Modal1 = () => {
             }}
         >
             <div className={style.out_img} style={{ backgroundImage: `url(${img})` }}></div>
+
             <div className={style.out_intro}>
                 <div className={style.out_title}>
                     <h1>포트폴리오</h1>
@@ -58,7 +75,19 @@ const Modal1 = () => {
                 <div className={style.modal}>
                     <div className={style.modal_inner}>
                         <div className={style.img}>
-                            <div className={style.inner_img}></div>
+                            <Carousel
+                                showArrows={true}
+                                showStatus={false}
+                                showThumbs={false}
+                                autoPlay={true}
+                                infiniteLoop={true}
+                                selectedItem={imageData[currentIndex]}
+                                onChange={handleChange}
+                                width="300px"
+                                className="w-[200px] lg:hidden"
+                            >
+                                {renderSlides}
+                            </Carousel>
                         </div>
                         <div className={style.intro}>
                             <div className={style.title}>
