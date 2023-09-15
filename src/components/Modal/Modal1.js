@@ -5,11 +5,12 @@ import ModalStyle from "../../styles/ModalStyle";
 
 import img from "../../img/포토폴리오.png";
 
+// 캐러셀
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-
 import imageData from "./data";
 
+// 캐러셀
 const renderSlides = imageData.map((image) => (
     <div key={image.alt}>
         <img src={image.url} alt={image.alt} />
@@ -70,24 +71,26 @@ const Modal1 = () => {
                     setModalIsOpen(false);
                     event.stopPropagation(); // 이벤트 버블링 방지
                 }}
+                // portalClassName="out_modal"
                 style={ModalStyle}
             >
                 <div className={style.modal}>
                     <div className={style.modal_inner}>
                         <div className={style.img}>
-                            <Carousel
-                                showArrows={true}
-                                showStatus={false}
-                                showThumbs={false}
-                                autoPlay={true}
-                                infiniteLoop={true}
-                                selectedItem={imageData[currentIndex]}
-                                onChange={handleChange}
-                                width="300px"
-                                className="w-[200px] lg:hidden"
-                            >
-                                {renderSlides}
-                            </Carousel>
+                            <div className={style.inner_img}>
+                                <Carousel
+                                    showArrows={true}
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    autoPlay={true}
+                                    infiniteLoop={true}
+                                    selectedItem={imageData[currentIndex]}
+                                    onChange={handleChange}
+                                    width="100%"
+                                >
+                                    {renderSlides}
+                                </Carousel>
+                            </div>
                         </div>
                         <div className={style.intro}>
                             <div className={style.title}>

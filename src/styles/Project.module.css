@@ -97,6 +97,20 @@
     margin: 0;
 }
 
+/* .out_modal {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    right: 15rem;
+    bottom: 5rem;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    webkitoverflowscrolling: touch;
+    borderradius: 4px;
+    outline: none;
+} */
+
 /* 모달 내부 */
 .modal {
     width: 100%;
@@ -111,11 +125,12 @@
 }
 
 .img {
-    width: 50%;
+    width: 50em;
     height: 100%;
 
     display: flex;
     justify-content: center;
+    align-content: center;
 
     border-right: 1px solid black;
 }
@@ -123,8 +138,7 @@
 .inner_img {
     width: 70%;
     height: 50%;
-    margin-top: 4rem;
-    background-color: black;
+    margin-top: 0.2rem;
 }
 
 .intro {
@@ -132,8 +146,6 @@
     height: 100%;
 
     display: flex;
-    /* justify-content: center; */
-    /* flex-direction: column; */
     text-align: center;
 
     flex-direction: column;
@@ -176,4 +188,36 @@
 .link {
     height: 4rem;
     border: 1px solid black;
+}
+
+@media only screen and (max-width: 1024px) {
+    .modal_inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-content: center; */
+    }
+
+    .img {
+        width: 50em;
+        height: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        border-right: 1px solid black;
+    }
+
+    .intro {
+        width: 100%;
+        height: 50%;
+
+        display: flex;
+        text-align: center;
+
+        flex-direction: column;
+
+        border: 1px solid black;
+    }
 }
