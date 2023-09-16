@@ -1,10 +1,10 @@
 const ModalStyle = {
     content: {
         position: "absolute",
-        top: "5rem",
-        left: "15rem",
-        right: "15rem",
-        bottom: "5rem",
+        top: "10vh",
+        left: "10vw",
+        right: "10vw",
+        bottom: "10vh",
         border: "1px solid #ccc",
         background: "#fff",
         overflow: "auto",

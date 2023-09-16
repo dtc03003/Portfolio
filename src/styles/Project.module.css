@@ -97,20 +97,6 @@
     margin: 0;
 }
 
-/* .out_modal {
-    position: absolute;
-    top: 5rem;
-    left: 15rem;
-    right: 15rem;
-    bottom: 5rem;
-    border: 1px solid #ccc;
-    background: #fff;
-    overflow: auto;
-    webkitoverflowscrolling: touch;
-    borderradius: 4px;
-    outline: none;
-} */
-
 /* 모달 내부 */
 .modal {
     width: 100%;
@@ -130,14 +116,14 @@
 
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    overflow: hidden;
 
     border-right: 1px solid black;
 }
 
 .inner_img {
     width: 70%;
-    height: 50%;
     margin-top: 0.2rem;
 }
 
@@ -199,7 +185,7 @@
     }
 
     .img {
-        width: 50em;
+        width: 100%;
         height: 50%;
 
         display: flex;
