@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ddb137ff.css",
-    "main.js": "/Portfolio/static/js/main.93969be2.js",
+    "main.css": "/Portfolio/static/css/main.1a4eddc3.css",
+    "main.js": "/Portfolio/static/js/main.fd72c6b3.js",
+    "static/media/포토폴리오.png": "/Portfolio/static/media/포토폴리오.4442716e2c5ee89f282d.png",
     "static/media/img.jpg": "/Portfolio/static/media/img.0fd464bda549ed67a602.jpg",
     "static/media/Main.jpg": "/Portfolio/static/media/Main.1412286e76ea875e15d7.jpg",
+    "static/media/핏메이트.png": "/Portfolio/static/media/핏메이트.7cb8e4f8d6a7d5b29b18.png",
     "static/media/nodejs.png": "/Portfolio/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
     "static/media/jira.png": "/Portfolio/static/media/jira.b045cc93be9c2708f9ee.png",
     "static/media/ubuntu.png": "/Portfolio/static/media/ubuntu.886ffb4914135adbdcae.png",
@@ -12,6 +14,8 @@
     "static/media/express.png": "/Portfolio/static/media/express.375eee7619857b2ae37a.png",
     "static/media/react.png": "/Portfolio/static/media/react.215e5090b9570a46d75f.png",
     "static/media/redux.jpeg": "/Portfolio/static/media/redux.236050024628dd4182f5.jpeg",
+    "static/media/게시판.png": "/Portfolio/static/media/게시판.a05b4899581b0038e43f.png",
+    "static/media/S뱅크.png": "/Portfolio/static/media/S뱅크.ea7b5c95e1ee0252c3cc.png",
     "static/media/js.png": "/Portfolio/static/media/js.6e032a96cdc14a5172b4.png",
     "static/media/markdown.png": "/Portfolio/static/media/markdown.adb6f4ea8261ba740bc4.png",
     "static/media/css.png": "/Portfolio/static/media/css.1e19f76649d7c4174764.png",
@@ -22,11 +26,11 @@
     "static/media/velog.svg": "/Portfolio/static/media/velog.734340c4f4ac254ca87d.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/gmail.svg": "/Portfolio/static/media/gmail.f12319849e28413aaa94.svg",
-    "main.ddb137ff.css.map": "/Portfolio/static/css/main.ddb137ff.css.map",
-    "main.93969be2.js.map": "/Portfolio/static/js/main.93969be2.js.map"
+    "main.1a4eddc3.css.map": "/Portfolio/static/css/main.1a4eddc3.css.map",
+    "main.fd72c6b3.js.map": "/Portfolio/static/js/main.fd72c6b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddb137ff.css",
-    "static/js/main.93969be2.js"
+    "static/css/main.1a4eddc3.css",
+    "static/js/main.fd72c6b3.js"
   ]
 }
