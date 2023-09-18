@@ -104,31 +104,33 @@ const Modal1 = () => {
                                     실제로 웹사이트를 제작하면서 심도있게 다뤘습니다. 특히 CSS
                                     실력이 많이 늘었다고 생각하는 프로젝트 입니다.
                                 </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>주요 기능</div>
-                                    <div className={style.projects_value}>
-                                        자기소개, 인적 사항, 기술 스택, 프로젝트 경험, GitHub &
-                                        블로그 & 이메일 &카카오톡 주소 링크
+                                <div className={style.sub_description}>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>주요 기능</div>
+                                        <div className={style.projects_value}>
+                                            자기소개, 인적 사항, 기술 스택, 프로젝트 경험, GitHub &
+                                            블로그 & 이메일 &카카오톡 주소 링크
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>React, jQuery</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>GitHub</div>
-                                    <div className={style.projects_value}>
-                                        <a href="https://github.com/dtc03003/Portfolio">
-                                            https://github.com/dtc03003/Portfolio
-                                        </a>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>FrontEnd</div>
+                                        <div className={style.projects_value}>React, jQuery</div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>
-                                        <a href="https://dtc03003.github.io/Portfolio/">
-                                            https://dtc03003.github.io/Portfolio/
-                                        </a>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>GitHub</div>
+                                        <div className={style.projects_value}>
+                                            <a href="https://github.com/dtc03003/Portfolio">
+                                                https://github.com/dtc03003/Portfolio
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>URL</div>
+                                        <div className={style.projects_value}>
+                                            <a href="https://dtc03003.github.io/Portfolio/">
+                                                https://dtc03003.github.io/Portfolio/
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
