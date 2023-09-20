@@ -63,34 +63,36 @@ const Modal1 = () => {
                             </div>
                             <div className={style.inner_intro}>
                                 <div className={style.main_description}>Chat 설명</div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>주요 기능</div>
-                                    <div className={style.projects_value}>
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
-                                        주요 기능 설명
+                                <div className={style.sub_description}>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>주요 기능</div>
+                                        <div className={style.projects_value}>
+                                            주요 기능 설명 주요 기능 설명 주요 기능 설명 주요 기능
+                                            설명 주요 기능 설명 주요 기능 설명 주요 기능 설명 주요
+                                            기능 설명 주요 기능 설명 주요 기능 설명 주요 기능 설명
+                                            주요 기능 설명 주요 기능 설명
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>DataBase</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>기능 설명</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>기능 설명</div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>FrontEnd</div>
+                                        <div className={style.projects_value}>기능 설명</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>BackEnd</div>
+                                        <div className={style.projects_value}>기능 설명</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>DataBase</div>
+                                        <div className={style.projects_value}>기능 설명</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>Deployment</div>
+                                        <div className={style.projects_value}>기능 설명</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>URL</div>
+                                        <div className={style.projects_value}>기능 설명</div>
+                                    </div>
                                 </div>
                             </div>
                             <div className={style.link}>깃허브 주소</div>

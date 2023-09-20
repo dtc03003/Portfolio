@@ -81,36 +81,40 @@ const Modal1 = () => {
                                     하고 생각하게 되죠. 그래서 준비해봤어요. <br /> “스타일리스트
                                     매칭 서비스!”
                                 </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>주요기능</div>
-                                    <div className={style.projects_value}>
-                                        이미지 업로드 및 글 작성, 팔로우 기능,
+                                <div className={style.sub_description}>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>주요기능</div>
+                                        <div className={style.projects_value}>
+                                            이미지 업로드 및 글 작성, 팔로우 기능,
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>Vue, Vuex</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>Spring Boot, Swagger</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>DataBase</div>
-                                    <div className={style.projects_value}>MySQL</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>
-                                        AWS(EC2, NGINX, Docker, Jenkins)
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>FrontEnd</div>
+                                        <div className={style.projects_value}>Vue, Vuex</div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>
-                                        <a href="https://github.com/dtc03003/project1">
-                                            https://github.com/dtc03003/project1
-                                        </a>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>BackEnd</div>
+                                        <div className={style.projects_value}>
+                                            Spring Boot, Swagger
+                                        </div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>DataBase</div>
+                                        <div className={style.projects_value}>MySQL</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>Deployment</div>
+                                        <div className={style.projects_value}>
+                                            AWS(EC2, NGINX, Docker, Jenkins)
+                                        </div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>URL</div>
+                                        <div className={style.projects_value}>
+                                            <a href="https://github.com/dtc03003/project1">
+                                                https://github.com/dtc03003/project1
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

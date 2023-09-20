@@ -70,42 +70,46 @@ const Modal1 = () => {
                                     이용하여 배포, 도메인 구매 후 적용 등 프론트엔드와 백엔드 모두
                                     구현해 웹개발의 다양한 측면을 경험할 수 있는 좋은 기회였습니다.
                                 </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>주요 기능</div>
-                                    <div className={style.projects_value}>
-                                        회원가입, 로그인, 글 등록, 수정, 삭제, 태그 기능
+                                <div className={style.sub_description}>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>주요 기능</div>
+                                        <div className={style.projects_value}>
+                                            회원가입, 로그인, 글 등록, 수정, 삭제, 태그 기능
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>FrontEnd</div>
-                                    <div className={style.projects_value}>React, Redux, jQuery</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>BackEnd</div>
-                                    <div className={style.projects_value}>Node.js, Koa</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>DataBase</div>
-                                    <div className={style.projects_value}>MongoDB</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>Deployment</div>
-                                    <div className={style.projects_value}>AWS(EC2)</div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>GitHub</div>
-                                    <div className={style.projects_value}>
-                                        <a href="https://github.com/dtc03003/blog">
-                                            https://github.com/dtc03003/blog
-                                        </a>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>FrontEnd</div>
+                                        <div className={style.projects_value}>
+                                            React, Redux, jQuery
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.description}>
-                                    <div className={style.projects_label}>URL</div>
-                                    <div className={style.projects_value}>
-                                        <a href="http://meerkatstudy.store/">
-                                            http://meerkatstudy.store/
-                                        </a>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>BackEnd</div>
+                                        <div className={style.projects_value}>Node.js, Koa</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>DataBase</div>
+                                        <div className={style.projects_value}>MongoDB</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>Deployment</div>
+                                        <div className={style.projects_value}>AWS(EC2)</div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>GitHub</div>
+                                        <div className={style.projects_value}>
+                                            <a href="https://github.com/dtc03003/blog">
+                                                https://github.com/dtc03003/blog
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className={style.description}>
+                                        <div className={style.projects_label}>URL</div>
+                                        <div className={style.projects_value}>
+                                            <a href="http://meerkatstudy.store/">
+                                                http://meerkatstudy.store/
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
