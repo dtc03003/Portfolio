@@ -8,7 +8,7 @@ import img from "../../img/포토폴리오.png";
 // 캐러셀
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import imageData from "./data";
+import imageData from "./data1";
 
 // 캐러셀
 const renderSlides = imageData.map((image) => (
@@ -101,8 +101,9 @@ const Modal1 = () => {
                                     포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 이
                                     웹사이트에 해당합니다. <br />
                                     <br /> 이론으로만 알았던 HTML, CSS, JavaScript, React 등을
-                                    실제로 웹사이트를 제작하면서 심도있게 다뤘습니다. 특히 CSS
-                                    실력이 많이 늘었다고 생각하는 프로젝트 입니다.
+                                    실제로 웹사이트를 제작하면서 심도있게 다뤘습니다. 반응형 웹을
+                                    만들어 스마트폰에서 접속 했을때를 고려하였으며 특히 CSS 실력이
+                                    많이 늘었다고 생각하는 프로젝트 입니다.
                                 </div>
                                 <div className={style.sub_description}>
                                     <div className={style.description}>
