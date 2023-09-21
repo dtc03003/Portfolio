@@ -5,8 +5,25 @@ import ModalStyle from "../../styles/ModalStyle";
 
 import img from "../../img/게시판.png";
 
+// 캐러셀
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import imageData from "./data2";
+
+// 캐러셀
+const renderSlides = imageData.map((image) => (
+    <div key={image.alt}>
+        <img src={image.url} alt={image.alt} />
+    </div>
+));
+
 const Modal1 = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const [currentIndex, setCurrentIndex] = useState();
+    function handleChange(index) {
+        setCurrentIndex(index);
+    }
 
     return (
         <div
@@ -57,7 +74,20 @@ const Modal1 = () => {
                 <div className={style.modal}>
                     <div className={style.modal_inner}>
                         <div className={style.img}>
-                            <div className={style.inner_img}></div>
+                            <div className={style.inner_img}>
+                                <Carousel
+                                    showArrows={true}
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    autoPlay={true}
+                                    infiniteLoop={true}
+                                    selectedItem={imageData[currentIndex]}
+                                    onChange={handleChange}
+                                    width="100%"
+                                >
+                                    {renderSlides}
+                                </Carousel>
+                            </div>
                         </div>
                         <div className={style.intro}>
                             <div className={style.title}>
