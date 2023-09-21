@@ -1,8 +1,8 @@
-import img1 from "../../img/포폴1.png";
-import img2 from "../../img/포폴2.png";
-import img3 from "../../img/포폴3.png";
-import img4 from "../../img/포폴4.png";
-import img5 from "../../img/포폴5.png";
+import img1 from "../../img/게시판1.png";
+import img2 from "../../img/게시판2.png";
+import img3 from "../../img/게시판3.png";
+import img4 from "../../img/게시판4.png";
+import img5 from "../../img/게시판5.png";
 
 const imageData = [
     {
