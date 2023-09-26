@@ -53,7 +53,8 @@
     justify-content: space-around;
 }
 
-.skill {
+.main_skill {
+    width: 40%;
     padding: 10px;
     margin: 1vw;
 
@@ -66,13 +67,40 @@
     border-radius: 30px 30px;
 }
 
-.inner_skill {
+.sub_skill {
+    padding: 10px;
+    margin: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px 30px;
+}
+
+.skill_logo {
     width: 100px;
     height: 100px;
 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.skill_main {
+    width: 70%;
+    padding-left: 10px;
+}
+
+.skill_name h1 {
+    color: black;
+    margin: 0;
+}
+
+.skill_explain p {
+    margin: 0;
 }
 
 .Sub {
@@ -88,4 +116,19 @@
     margin: 0;
     text-align: center;
     margin-bottom: 4rem;
+}
+
+#progress {
+    appearance: none;
+}
+#progress::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+    border-radius: 10px;
+    background: #1d976c;
+    background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+    background: linear-gradient(to right, #93f9b9, #1d976c);
 }

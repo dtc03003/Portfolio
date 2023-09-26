@@ -24,6 +24,7 @@ import jira from "./../logo/jira.png";
 
 // 로고 컴포넌트화
 import Logo from "./logo";
+import Skill from "./Skill";
 
 const Skills = () => {
     return (
@@ -33,30 +34,30 @@ const Skills = () => {
                 <div className={style.Main}>
                     <h1>📕Used as the main</h1>
                     <div className={style.skills}>
-                        <Logo logo={html}></Logo>
-                        <Logo logo={css}></Logo>
-                        <Logo logo={js}></Logo>
-                        <Logo logo={react}></Logo>
-                        <Logo logo={java}></Logo>
-                        <Logo logo={git}></Logo>
-                        <Logo logo={markdown}></Logo>
+                        <Skill logo={html} name={"HTML"} gauge={50} />
+                        <Skill logo={css} name={"CSS"} gauge={50} />
+                        <Skill logo={js} name={"JavaScript"} gauge={50} />
+                        <Skill logo={react} name={"React"} gauge={50} />
+                        <Skill logo={java} name={"Java"} gauge={50} />
+                        <Skill logo={git} name={"GIT"} gauge={50} />
+                        <Skill logo={markdown} name={"MarkDown"} gauge={50} />
                     </div>
                 </div>
                 <div className={style.Sub}>
                     <h1>📒Used at least once</h1>
                     <div className={style.skills}>
-                        <Logo logo={vue}></Logo>
-                        <Logo logo={redux}></Logo>
-                        <Logo logo={spring}></Logo>
-                        <Logo logo={spring_boot}></Logo>
-                        <Logo logo={node}></Logo>
-                        <Logo logo={koa}></Logo>
-                        <Logo logo={express}></Logo>
-                        <Logo logo={mysql}></Logo>
-                        <Logo logo={mongodb}></Logo>
-                        <Logo logo={ec2}></Logo>
-                        <Logo logo={ubuntu}></Logo>
-                        <Logo logo={jira}></Logo>
+                        <Logo logo={vue} />
+                        <Logo logo={redux} />
+                        <Logo logo={spring} />
+                        <Logo logo={spring_boot} />
+                        <Logo logo={node} />
+                        <Logo logo={koa} />
+                        <Logo logo={express} />
+                        <Logo logo={mysql} />
+                        <Logo logo={mongodb} />
+                        <Logo logo={ec2} />
+                        <Logo logo={ubuntu} />
+                        <Logo logo={jira} />
                     </div>
                 </div>
             </div>
