@@ -13,9 +13,9 @@ const Skill = (props) => {
                     <h1>{props.name}</h1>
                 </div>
                 <div className={style.skill_gauge}>
-                    <div class="progress">
+                    <div className="progress">
                         <div
-                            class="progress-bar"
+                            className="progress-bar"
                             role="progressbar"
                             aria-label="Example with label"
                             style={{ width: `${props.gauge}%` }}
