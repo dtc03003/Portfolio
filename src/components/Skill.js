@@ -10,7 +10,7 @@ const Skill = (props) => {
             ></div>
             <div className={style.skill_main}>
                 <div className={style.skill_name}>
-                    <h1>{props.name}</h1>
+                    <h1>{props.data.skillname}</h1>
                 </div>
                 <div className={style.skill_gauge}>
                     <div className="progress">
@@ -18,12 +18,12 @@ const Skill = (props) => {
                             className="progress-bar"
                             role="progressbar"
                             aria-label="Example with label"
-                            style={{ width: `${props.gauge}%` }}
+                            style={{ width: `${props.data.skillgauge}%` }}
                             aria-valuenow="25"
                             aria-valuemin="0"
                             aria-valuemax="100"
                         >
-                            {props.gauge}%
+                            {props.data.skillgauge}%
                         </div>
                     </div>
                 </div>

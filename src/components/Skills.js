@@ -26,6 +26,9 @@ import jira from "./../logo/jira.png";
 import Logo from "./logo";
 import Skill from "./Skill";
 
+//Json data
+import data from "./data.json";
+
 const Skills = () => {
     return (
         <div className={style.Skills} id="Skills">
@@ -34,13 +37,13 @@ const Skills = () => {
                 <div className={style.Main}>
                     <h1>📕Used as the main</h1>
                     <div className={style.skills}>
-                        <Skill logo={html} name={"HTML"} gauge={50} />
-                        <Skill logo={css} name={"CSS"} gauge={50} />
-                        <Skill logo={js} name={"JavaScript"} gauge={50} />
-                        <Skill logo={react} name={"React"} gauge={50} />
-                        <Skill logo={java} name={"Java"} gauge={50} />
-                        <Skill logo={git} name={"GIT"} gauge={50} />
-                        <Skill logo={markdown} name={"MarkDown"} gauge={50} />
+                        <Skill logo={html} data={data[0]} />
+                        <Skill logo={css} data={data[1]} />
+                        <Skill logo={js} data={data[2]} />
+                        <Skill logo={react} data={data[3]} />
+                        <Skill logo={java} data={data[4]} />
+                        <Skill logo={git} data={data[5]} />
+                        <Skill logo={markdown} data={data[6]} />
                     </div>
                 </div>
                 <div className={style.Sub}>
