@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.45c03e76.css",
-    "main.js": "/Portfolio/static/js/main.b106b1c1.js",
+    "main.css": "/Portfolio/static/css/main.a7cee6c4.css",
+    "main.js": "/Portfolio/static/js/main.a4b7d1ab.js",
     "static/media/포폴1.png": "/Portfolio/static/media/포폴1.8b0c466153a3c67ba49e.png",
     "static/media/포토폴리오.png": "/Portfolio/static/media/포토폴리오.4442716e2c5ee89f282d.png",
     "static/media/img.jpg": "/Portfolio/static/media/img.0fd464bda549ed67a602.jpg",
@@ -40,14 +40,14 @@
     "static/media/kakaotalk.svg": "/Portfolio/static/media/kakaotalk.ba0b78fa92b0ab277fc4.svg",
     "static/media/github.svg": "/Portfolio/static/media/github.3b21c250a99986431958.svg",
     "static/media/html.svg": "/Portfolio/static/media/html.3908779051a16ae792c7bee9e7b23b6f.svg",
-    "static/media/velog.svg": "/Portfolio/static/media/velog.734340c4f4ac254ca87d.svg",
     "index.html": "/Portfolio/index.html",
+    "static/media/velog.svg": "/Portfolio/static/media/velog.734340c4f4ac254ca87d.svg",
     "static/media/gmail.svg": "/Portfolio/static/media/gmail.f12319849e28413aaa94.svg",
-    "main.45c03e76.css.map": "/Portfolio/static/css/main.45c03e76.css.map",
-    "main.b106b1c1.js.map": "/Portfolio/static/js/main.b106b1c1.js.map"
+    "main.a7cee6c4.css.map": "/Portfolio/static/css/main.a7cee6c4.css.map",
+    "main.a4b7d1ab.js.map": "/Portfolio/static/js/main.a4b7d1ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c03e76.css",
-    "static/js/main.b106b1c1.js"
+    "static/css/main.a7cee6c4.css",
+    "static/js/main.a4b7d1ab.js"
   ]
 }
