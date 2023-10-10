@@ -1,7 +1,13 @@
 /* css import */
 import style from "./../styles/Skills.module.css";
+import Texts from "./Texts";
 
 const Skill = (props) => {
+    const textarray = props.text;
+    // console.log(texts);
+
+    const textlist = textarray.map((v) => <Texts id={v.id} text={v.text} key={v.num} />);
+
     return (
         <div className={style.main_skill}>
             <div
@@ -27,12 +33,7 @@ const Skill = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className={style.skill_explain}>
-                    <p>항목1</p>
-                    <p>항목2</p>
-                    <p>항목3</p>
-                    <p>항목4</p>
-                </div>
+                <div className={style.skill_explain}>{textlist}</div>
             </div>
         </div>
     );

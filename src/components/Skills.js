@@ -29,6 +29,10 @@ import Skill from "./Skill";
 //Json data
 import data from "./data.json";
 
+const TextList = (props) => {
+    return data.text.filter((v) => v.id == props);
+};
+
 const Skills = () => {
     return (
         <div className={style.Skills} id="Skills">
@@ -37,13 +41,13 @@ const Skills = () => {
                 <div className={style.Main}>
                     <h1>📕Used as the main</h1>
                     <div className={style.skills}>
-                        <Skill logo={html} data={data.data[0]} />
-                        <Skill logo={css} data={data.data[1]} />
-                        <Skill logo={js} data={data.data[2]} />
-                        <Skill logo={react} data={data.data[3]} />
-                        <Skill logo={java} data={data.data[4]} />
-                        <Skill logo={git} data={data.data[5]} />
-                        <Skill logo={markdown} data={data.data[6]} />
+                        <Skill logo={html} data={data.data[0]} text={TextList(1)} />
+                        <Skill logo={css} data={data.data[1]} text={TextList(2)} />
+                        <Skill logo={js} data={data.data[2]} text={TextList(3)} />
+                        <Skill logo={react} data={data.data[3]} text={TextList(4)} />
+                        <Skill logo={java} data={data.data[4]} text={TextList(5)} />
+                        <Skill logo={git} data={data.data[5]} text={TextList(6)} />
+                        <Skill logo={markdown} data={data.data[6]} text={TextList(7)} />
                     </div>
                 </div>
                 <div className={style.Sub}>
