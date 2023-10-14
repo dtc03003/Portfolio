@@ -30,7 +30,7 @@ import Skill from "./Skill";
 import data from "./data.json";
 
 const TextList = (props) => {
-    return data.text.filter((v) => v.id == props);
+    return data.text.filter((v) => v.id === props);
 };
 
 const Skills = () => {
