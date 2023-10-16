@@ -10,14 +10,8 @@ const Skill = (props) => {
 
     return (
         <div className={style.main_skill}>
-            <div
-                className={style.skill_logo}
-                style={{ backgroundImage: `url(${props.logo})` }}
-            ></div>
-            <div className={style.skill_main}>
-                <div className={style.skill_name}>
-                    <h1>{props.data.skillname}</h1>
-                </div>
+            <div className={style.skill_logo}>
+                <div className={style.logo} style={{ backgroundImage: `url(${props.logo})` }}></div>
                 <div className={style.skill_gauge}>
                     <div className="progress">
                         <div
@@ -32,6 +26,11 @@ const Skill = (props) => {
                             {props.data.skillgauge}%
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className={style.skill_main}>
+                <div className={style.skill_name}>
+                    <h1>{props.data.skillname}</h1>
                 </div>
                 <div className={style.skill_explain}>{textlist}</div>
             </div>
