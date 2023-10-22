@@ -41,6 +41,7 @@
     height: 18rem;
     margin-bottom: 2rem;
     border: 3px solid black;
+    border-radius: 5%;
     flex-shrink: 0;
     text-align: center;
     cursor: pointer;
