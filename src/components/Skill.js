@@ -12,7 +12,7 @@ const Skill = (props) => {
         <div className={style.main_skill}>
             <div className={style.skill_logo}>
                 <div className={style.logo} style={{ backgroundImage: `url(${props.logo})` }}></div>
-                <div className={style.skill_gauge}>
+                {/* <div className={style.skill_gauge}>
                     <div className="progress">
                         <div
                             className="progress-bar"
@@ -26,7 +26,7 @@ const Skill = (props) => {
                             {props.data.skillgauge}%
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className={style.skill_main}>
                 <div className={style.skill_name}>
