@@ -3,7 +3,7 @@ import style from "./../styles/Header.module.css";
 
 const Header = () => {
     return (
-        <div className={style.Header}>
+        <Header className={style.Header}>
             <div className={style.inner}>
                 <div className={style.title}>
                     <p
@@ -15,7 +15,7 @@ const Header = () => {
                         DH's Portfolio
                     </p>
                 </div>
-                <div className={style.btn_items}>
+                <nav className={style.btn_items}>
                     <p
                         className={style.btn_item}
                         onClick={() => {
@@ -48,9 +48,9 @@ const Header = () => {
                     >
                         Contact
                     </p>
-                </div>
+                </nav>
             </div>
-        </div>
+        </Header>
     );
 };
 
