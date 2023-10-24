@@ -9,7 +9,7 @@ import Contact from "./Contact";
 
 const Contents = () => {
     return (
-        <div className={style.Contents} id="Contents">
+        <main className={style.Contents} id="Contents">
             <Main />
             <About />
             <Skills />
@@ -28,7 +28,7 @@ const Contents = () => {
                     scroll("Contact");
                 }}
             ></div>
-        </div>
+        </main>
     );
 };
 

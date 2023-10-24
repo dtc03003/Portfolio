@@ -3,9 +3,9 @@ import style from "./../styles/Header.module.css";
 
 const Header = () => {
     return (
-        <Header className={style.Header}>
+        <div className={style.Header}>
             <div className={style.inner}>
-                <div className={style.title}>
+                <header className={style.title}>
                     <p
                         className={style.btn_item}
                         onClick={() => {
@@ -14,7 +14,7 @@ const Header = () => {
                     >
                         DH's Portfolio
                     </p>
-                </div>
+                </header>
                 <nav className={style.btn_items}>
                     <p
                         className={style.btn_item}
@@ -50,7 +50,7 @@ const Header = () => {
                     </p>
                 </nav>
             </div>
-        </Header>
+        </div>
     );
 };
 

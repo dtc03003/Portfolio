@@ -8,11 +8,11 @@ import Footer from "./Footer";
 
 const Layout = () => {
     return (
-        <main className={style.layout}>
+        <div className={style.layout}>
             <Header />
             <Contents />
             <Footer />
-        </main>
+        </div>
     );
 };
 
